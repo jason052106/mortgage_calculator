@@ -76,7 +76,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(26, 56);
+            this.label1.Location = new System.Drawing.Point(35, 32);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label1.Size = new System.Drawing.Size(162, 26);
@@ -88,7 +88,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.Location = new System.Drawing.Point(155, 120);
+            this.label2.Location = new System.Drawing.Point(164, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(33, 26);
             this.label2.TabIndex = 1;
@@ -98,7 +98,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(26, 187);
+            this.label3.Location = new System.Drawing.Point(35, 163);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(162, 26);
             this.label3.TabIndex = 4;
@@ -108,7 +108,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label4.Location = new System.Drawing.Point(26, 255);
+            this.label4.Location = new System.Drawing.Point(35, 231);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(162, 26);
             this.label4.TabIndex = 3;
@@ -118,7 +118,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label5.Location = new System.Drawing.Point(26, 327);
+            this.label5.Location = new System.Drawing.Point(35, 303);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(161, 26);
             this.label5.TabIndex = 4;
@@ -132,7 +132,7 @@
             this.cmbDownPaymentType.Items.AddRange(new object[] {
             "自備款比例",
             "自備款金額"});
-            this.cmbDownPaymentType.Location = new System.Drawing.Point(26, 119);
+            this.cmbDownPaymentType.Location = new System.Drawing.Point(35, 95);
             this.cmbDownPaymentType.Name = "cmbDownPaymentType";
             this.cmbDownPaymentType.Size = new System.Drawing.Size(132, 34);
             this.cmbDownPaymentType.TabIndex = 1;
@@ -143,7 +143,7 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.txtDownPayment);
             this.panel1.Controls.Add(this.lblInsideUnit);
-            this.panel1.Location = new System.Drawing.Point(194, 120);
+            this.panel1.Location = new System.Drawing.Point(203, 96);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(351, 29);
             this.panel1.TabIndex = 11;
@@ -176,7 +176,7 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.txtTotalHousePrise);
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Location = new System.Drawing.Point(194, 53);
+            this.panel2.Location = new System.Drawing.Point(203, 29);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(351, 29);
             this.panel2.TabIndex = 1;
@@ -209,7 +209,7 @@
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.txtResultFirstPrincipal);
             this.panel3.Controls.Add(this.label7);
-            this.panel3.Location = new System.Drawing.Point(194, 186);
+            this.panel3.Location = new System.Drawing.Point(203, 162);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(351, 29);
             this.panel3.TabIndex = 13;
@@ -242,7 +242,7 @@
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.txtLoanYears);
             this.panel4.Controls.Add(this.label8);
-            this.panel4.Location = new System.Drawing.Point(194, 255);
+            this.panel4.Location = new System.Drawing.Point(203, 231);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(351, 29);
             this.panel4.TabIndex = 14;
@@ -275,7 +275,7 @@
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.txtGracePeriod);
             this.panel5.Controls.Add(this.label9);
-            this.panel5.Location = new System.Drawing.Point(194, 324);
+            this.panel5.Location = new System.Drawing.Point(203, 300);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(351, 29);
             this.panel5.TabIndex = 15;
@@ -310,7 +310,7 @@
             this.btnCalculate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalculate.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnCalculate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCalculate.Location = new System.Drawing.Point(31, 385);
+            this.btnCalculate.Location = new System.Drawing.Point(40, 361);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(514, 38);
             this.btnCalculate.TabIndex = 17;
@@ -325,7 +325,7 @@
             this.button2.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDark;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button2.Location = new System.Drawing.Point(31, 442);
+            this.button2.Location = new System.Drawing.Point(40, 418);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(514, 37);
             this.button2.TabIndex = 18;
@@ -401,7 +401,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label12, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label10, 0, 0);
             this.tableLayoutPanel1.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(31, 543);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(40, 519);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -510,7 +510,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
             this.CancelButton = this.button2;
-            this.ClientSize = new System.Drawing.Size(587, 1028);
+            this.ClientSize = new System.Drawing.Size(587, 990);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnCalculate);
@@ -525,6 +525,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "房貸計算器";
             this.Load += new System.EventHandler(this.Form1_Load);
